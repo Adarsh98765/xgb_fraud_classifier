@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.dll
+
+# Virtual environment
+venv/
+.env/
+.env.bak/
+.env.*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode config
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Logs
+*.log
+
+# Data files (optional — only if too large or sensitive)
+data/raw/
+data/processed/
+
+# Model files — keep only final model
+# *.pkl  <-- Don't ignore this if you're using the model in the app
+*_temp.pkl
+
+# Streamlit cache
+.streamlit/
+
+# Output images or temp SHAP plots
+*.png
+plots/
+outputs/

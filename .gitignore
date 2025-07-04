@@ -27,8 +27,9 @@ venv/
 *.log
 
 # Data files (optional — only if too large or sensitive)
-data/raw/
-data/processed/
+Data/raw/
+*.csv
+
 
 # Model files — keep only final model
 # *.pkl  <-- Don't ignore this if you're using the model in the app

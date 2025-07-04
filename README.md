@@ -11,29 +11,27 @@ This project is a machine learning-based credit card fraud detection system that
 
 ---
 
-##  Project Structure
+## Project Structure
 
+```
 .
 ├── Model/
-│ ├── train_model.py # Trains XGBoost model and saves pickle
-│ ├── xgb_model.pkl # Trained model
-│ ├── shap_explainer.py # Generates SHAP explainer object
-│ └── shap_outputs/ # Stores SHAP plots
+│   ├── train_model.py          # Trains XGBoost model and saves pickle
+│   ├── xgb_model.pkl           # Trained XGBoost model
+│   ├── shap_explainer.py       # Generates SHAP explainer object
+│   └── shap_outputs/           # Stores SHAP plots
 │
 ├── utils/
-│ ├── preprocess.py # Data loading and preprocessing functions
-│ ├── predict.py # Inference logic
-│ └── shap_plot.py # SHAP visualization functions
+│   ├── preprocess.py           # Data loading and preprocessing functions
+│   ├── predict.py              # Prediction logic
+│   └── shap_plot.py            # SHAP visualization functions
 │
 ├── streamlit_app/
-│ └── app.py # Streamlit app
+│   └── app.py                  # Streamlit frontend application
 │
-├── requirements.txt # Project dependencies
-└── .gitignore # Files to ignore in version control
-
-yaml
-Copy
-Edit
+├── requirements.txt            # Project dependencies
+└── .gitignore                  # Files and folders ignored by Git
+```
 
 ---
 
